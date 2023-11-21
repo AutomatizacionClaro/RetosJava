@@ -2,23 +2,6 @@ package retos.david;
 
 public class SolucionRetoUno {
     public static void main(String[] args) {
-
-        for (int numero = 1; numero <= 100; numero++) {
-
-            if (numero % 3 == 0) {
-                System.out.print("fizz");
-            }
-            if (numero % 5 == 0) {
-                System.out.print("buzz");
-            } else if (numero % 3 == 0 && numero % 5 == 0) {
-
-                System.out.print("fizzbuzz");
-            }
-            if (numero % 3 != 0 && numero % 5 != 0) {
-
-                System.out.print(numero);
-            }
-            System.out.println();
-        }
+        // Favor crear una rama y al terminar el reto, lanzar el PR
     }
 }
