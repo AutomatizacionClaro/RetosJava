@@ -1,9 +1,9 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-.idea/
-RetosJava.iml
+# Ignorar archivos automaticamente creados del proyecto
+/.idea/
+/build/
+/histoy/
+/target/
+/out/
 
 ### Eclipse ###
 .apt_generated
