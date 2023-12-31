@@ -2,7 +2,8 @@ package com.demoQa.stepdefinitions;
 
 import com.demoqa.interactions.SelecionRadioButton;
 import com.demoqa.models.OpcionModel;
-import com.demoqa.tasks.*;
+import com.demoqa.tasks.AbrirPagina;
+import com.demoqa.tasks.SeleccionarElemento;
 import com.demoqa.userinterface.MenuElements;
 import io.cucumber.datatable.DataTable;
 import io.cucumber.java.Before;
@@ -14,7 +15,6 @@ import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.actors.OnStage;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
-import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
 
 public class radiobuttonStepDefinitions {
